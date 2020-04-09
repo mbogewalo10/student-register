@@ -12,7 +12,7 @@ import axios from "axios";
             email:"",
             password:"",
             token: localStorage.getItem("token") || "",
-            loggedInUser: localStorage.getItem("user") || ""
+            user: localStorage.getItem("user") || ""
         };
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -51,7 +51,7 @@ handleSubmit(e){
 }
 
 handleSend(){
-    alert(`Welcome  ${this.state.loggedInUser}`)
+    alert(`Welcome  ${this.state.user}`)
 }
     render() {
         return (
