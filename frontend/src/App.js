@@ -84,7 +84,7 @@ function App() {
                   LOGIN
                 </Link>
               </Nav>
-               <button className="logout" onClick={function(){localStorage.removeItem("token" ,"user")}} >LOGOUT</button>
+               <button className="logout" onClick={function() {localStorage.clear()} } >LOGOUT</button>
             </Nav>
           </Container>
         </Navbar>
