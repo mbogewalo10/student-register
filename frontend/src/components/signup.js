@@ -42,6 +42,7 @@ import Button from "react-bootstrap/Button"
       .catch(err =>{
           console.log(err)
       });
+      this.props.history.push('/')
     
     }
      handleSend(){

@@ -47,7 +47,7 @@ handleSubmit(e){
     .catch(err =>{
          console.log("Error at login" + err)
     })
-    this.props.history.push('/student-list')
+    this.props.history.push('/')
 }
 
 handleSend(){

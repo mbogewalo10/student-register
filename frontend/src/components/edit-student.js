@@ -40,6 +40,7 @@ export default class EditStudent extends Component {
       .catch((error) => {
         console.log(error);
       })
+      this.props.history.push('/')
   }
 
 

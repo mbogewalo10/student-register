@@ -90,7 +90,7 @@ import "./Stylesheets.css"
                     <div className="row">
                             <div className="col">
                                     <label htmlFor="email">Email</label>
-                                    <input type="email" name="email" value={this.state.email} onChange={this.handleChange} className="form-control" placeholder="email address" />
+                                    <input type="email" name="email" value={this.state.email} onChange={this.handleChange} className="form-control" placeholder="Email address" />
                             </div>
                             
                             <div className="col">
@@ -101,7 +101,7 @@ import "./Stylesheets.css"
                     <div className="row">
                             <div className="col">
                                     <label htmlFor="rollno">Roll Number</label>
-                                    <input type="number" name="rollno" value={this.state.rollno} onChange={this.handleChange} className="form-control" placeholder="email address" />
+                                    <input type="number" name="rollno" value={this.state.rollno} onChange={this.handleChange} className="form-control" placeholder="Roll number" />
                             </div>
                             
                             <div className="col">
@@ -112,7 +112,7 @@ import "./Stylesheets.css"
                     <div className="row">
                             <div className="col">
                                     <label htmlFor="contact">Contact</label>
-                                    <input type="text" name="contact" value={this.state.contact} onChange={this.handleChange} className="form-control" placeholder="email address" />
+                                    <input type="text" name="contact" value={this.state.contact} onChange={this.handleChange} className="form-control" placeholder="Contact" />
                             </div>
                             
                             <div className="col">
