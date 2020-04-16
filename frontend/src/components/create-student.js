@@ -106,7 +106,7 @@ import "./Stylesheets.css"
                             
                             <div className="col">
                                 <label htmlFor="title">Title</label>
-                                    <select name="title" value={this.state.title} onChange={this.handleChange} >
+                                    <select name="title" value={this.state.title} onChange={this.handleChange} className="form-control" >
                                         <option value="student">Student</option>
                                         <option value="lecturer">Lecturer</option>
                                    </select>
