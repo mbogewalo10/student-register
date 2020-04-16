@@ -97,10 +97,10 @@ import "./Stylesheets.css"
                             <div className="col">
                                 <label htmlFor="school">School</label>
                                 <select name="school" value={this.state.school} onChange={this.handleChange} className="form-control" >
-                                        <option value="Business and public administration">Business and public administration</option>
-                                        <option value="School of Arts and Sciences">School of Arts and Sciences</option>
+                                        <option value="School of Education">School of education</option>
+                                        <option value="Arts and Sciences">School of Arts and Sciences</option>
                                         <option value="School of Nursing">School of Nursing</option>
-                                        <option value="Information and Communication Technology">Information Communication and Technology</option>
+                                        <option value="Faculty of Law ">Faculty of Law</option>
                                    </select>
                             </div>
                     </div> <br/>
