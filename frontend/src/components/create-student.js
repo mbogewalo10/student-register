@@ -62,9 +62,10 @@ import "./Stylesheets.css"
           lastname: '',
           email: '',
           rollno: '',
-          school:'',
+          school:'Select school',
           contact:'',
-          title:''
+          title:'Select title',
+          studentimage:''
         });
       }
 
@@ -95,7 +96,12 @@ import "./Stylesheets.css"
                             
                             <div className="col">
                                 <label htmlFor="school">School</label>
-                                <input type="text" name="school" value={this.state.school} onChange={this.handleChange} className="form-control" placeholder="School"/>
+                                <select name="school" value={this.state.school} onChange={this.handleChange} className="form-control" >
+                                        <option value="Business and public administration">Business and public administration</option>
+                                        <option value="School of Arts and Sciences">School of Arts and Sciences</option>
+                                        <option value="School of Nursing">School of Nursing</option>
+                                        <option value="Information and Communication Technology">Information Communication and Technology</option>
+                                   </select>
                             </div>
                     </div> <br/>
                     <div className="row">
