@@ -106,12 +106,11 @@ import "./Stylesheets.css"
                             
                             <div className="col">
                                 <label htmlFor="title">Title</label>
-                                <input  className="form-control" placeholder="Title">
                                     <select name="title" value={this.state.title} onChange={this.handleChange} >
                                         <option value="student">Student</option>
                                         <option value="lecturer">Lecturer</option>
                                    </select>
-                                 </input>
+        
                             </div>
                     </div> <br/>
                     <div className="row">
